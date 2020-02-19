@@ -1,0 +1,30 @@
+.container {
+    margin: 100px 0;
+}
+
+.title {
+    margin: 0 0 100px;
+}
+
+.title, .card h2 {
+    text-align: center;
+}
+
+.cardContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 400px;
+    max-width: 450px;
+    margin: 15px;
+}
+
+.icon {
+    display: block;
+    margin: 20px auto;
+}

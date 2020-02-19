@@ -1,0 +1,33 @@
+.container {
+    margin: 50px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textContainer {
+    background: #F5F6F5;
+    padding: 10%;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.text {
+    max-width: 40em;
+    display: block;
+    margin: 0 20% 0 auto;
+}
+
+.text h2 {
+    
+    margin-top: 0;
+}
+
+.imageContainer {
+    width: 40%;
+}
+
+.fittingImageImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,32 @@
+.background {
+    background: #F1EDE9;
+    padding: 100px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.showroom {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    flex: 600px;
+}
+
+.text {
+    max-width: 40em;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.sig {
+    display: block;
+    margin: auto;
+}

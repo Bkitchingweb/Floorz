@@ -1,9 +1,24 @@
 import React from "react"
 import Header from "../components/header"
-export default () => (
-  <div style={{ color: `teal` }}>
+import FlooringGallery from "../components/flooring-gallery"
+import Importing from "../components/importing"
+import Fitting from "../components/fitting"
+import Services from "../components/services"
+import OurHistory from "../components/our-history"
+import Tour from "../components/360-tour"
+import Contact from "../components/contact"
+import Footer from "../components/footer"
+
+
+export default () => (<div>
     <Header />
-    <p>Such wow. Very React.</p>
-  </div>
-)
-export default () => <div>Hello world! Floorz s s s</div>
+    <FlooringGallery />
+    <Importing />
+    <Fitting />
+    <Services />
+    <OurHistory />
+    <Tour />
+    <Contact />
+    <Footer />
+    </div>)
+

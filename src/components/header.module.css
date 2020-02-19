@@ -1,0 +1,29 @@
+.subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.slogan {
+    font-family: 'PT Serif', serif;
+    max-width: 16em;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.container {
+    max-width: 1164px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.siteintro {
+    padding: 50px 20px 0 20px;
+}
+
+.background {
+   background-size: cover;
+   background-position: center top;
+   min-height: 900px;
+}
