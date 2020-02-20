@@ -9,8 +9,7 @@ const Header = () => (
             <div className={styles.siteintro}>
                 <img src={Logo} alt="logo"/>
                 <h2 className={styles.subtitle}>EST. 2000</h2>
-                <p className={styles.slogan}>Hardwood flooring experts with an exclusive range of the highest
-                quality engineered wood.</p>
+                <p className={styles.slogan}>liquam erat volutpat. Cras at enim vitae felis mollis maximus eget ut arcu.</p>
             </div>
             <img src={Image} alt="header-image"/>
         </div>
